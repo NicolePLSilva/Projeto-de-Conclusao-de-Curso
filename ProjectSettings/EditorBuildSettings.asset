@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 1.unity
+    guid: 7a69bf31c93e0ee41a903b80ce19e579
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.1.unity
+    guid: de9d014d7c7e18f4f9a05f6df7f5495a
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 2.unity
+    guid: 4adcc7fe13d36204aa798b8ae3b523a2
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.1 1.unity
+    guid: c1a7a416b654f574fa6fa0eea3764e3f
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 3.unity
+    guid: 21fa2720a93e9314c93d552b5ae8d913
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 4.unity
+    guid: 2c9e996ae4bd7284b926a2446008f3ad
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.1 2.unity
+    guid: 5b41342b18f394c4ebeb1478f489aa27
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 5.unity
+    guid: 7c22817c3723c9f47bee903a949ff6f5
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 6.unity
+    guid: 93969032c5b1a9a459daf484020c1bc8
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.1 3.unity
+    guid: 3a0daf973ca3bbd47b631fc778eed514
+  - enabled: 1
+    path: Assets/Scenes/Fase 1.unity
+    guid: 08775040d3c5aaf4a992556493b1e9bd
+  m_configObjects: {}

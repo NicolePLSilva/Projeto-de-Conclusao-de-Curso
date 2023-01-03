@@ -1,0 +1,44 @@
+G = {Vn, Vt, P, S}
+
+Vn =	INICIO, CMD, METODO, CMDATRIB, CMDREPITA, CMDSE, EXPR, BLOCO, MATCHED, UNMATCHED, COND, OPREL, TERMO
+Vt =	id, numero, space
+
+
+INICIO  -> CMD METODO INICIO
+CMD     -> CMDATRIB | CMDREPITA | CMDSE 
+METODO  -> id AP EXPR FP 
+
+CMDATRIB-> id ATRIB EXPR PV
+CMDREPITA-> "Repita" AP EXPR FP BLOCO
+
+CMDSE   -> MATCHED | UNMATCHED
+MATCHED -> SE AP COND FP MATCHED SENAO MATCHED | BLOCO
+UNMATCHED-> SE AP COND FP CMDSE | SE AP COND FP MATCHED SENAO UNMATCHED
+COND-> TERMO OPREL TERMO
+SE -> "se"
+SENAO -> "senao"
+ENTAO -> "entao"
+
+BLOCO-> ACH CMD  FCH
+EXPR -> TERMO | TERMO OP TERMO
+TERMO-> id | numero
+
+OP-> "+" | "-" | "/" | "*"
+OPREL-> "==" | ">=" | "<=" | "!="
+
+AP->  "(" 
+FP-> ")" 
+
+ACH-> "{"
+FCH-> "}"
+
+PV -> ";" 
+
+ATRIB-> '='
+
+id-> [a-z] ([a-z] | [A-Z] | [0-9])+;
+
+numero-> [0-9]+ ('.' [0-9]+)? ;
+
+space-> ( ' ' | '\n' | '\t' | '\r') 
+

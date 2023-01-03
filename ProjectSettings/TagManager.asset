@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - MovePoint
+  - Walls
+  - Next
+  - Interactables
+  - Inimigo
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Canvas
+    uniqueID: 4276656217
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 380091195
+    locked: 0
+  - name: Wall
+    uniqueID: 1998714855
+    locked: 0
+  - name: Player
+    uniqueID: 251136839
+    locked: 0
+  - name: Enemy
+    uniqueID: 2914776335
+    locked: 0
+  - name: Next
+    uniqueID: 35780059
+    locked: 0
+  - name: Interactables
+    uniqueID: 979225187
+    locked: 0
